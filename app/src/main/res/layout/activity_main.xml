@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mylayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <RadioButton
+            android:id="@+id/radioButton_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blue" />
+
+        <RadioButton
+            android:id="@+id/radioButton_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yellow" />
+
+        <RadioButton
+            android:id="@+id/radioButton_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="red" />
+    </RadioGroup>
+
+</RelativeLayout>
